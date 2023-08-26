@@ -20,7 +20,7 @@ def ThreeDimAreaCalc():
     print("Depth set to " +str(Depth) + ".")
     DH = Depth * Height2
     SQAREA = Width2 * DH
-    print ("\nSquare area of 3D right-angled quad:" + str(SQAREA))
+    print ("\nSquare area of 3D right-angled quad: " + str(SQAREA))
 
 def Choose():
     Choice = int(input("Choose a selection.\n [ 1 ] for square area calculation of a 2D quad, [ 2 ] for square area calculation of a 3D right angle quad: "))
