@@ -26,8 +26,10 @@ def Choose():
     Choice = int(input("Choose a selection.\n [ 1 ] for square area calculation of a 2D quad, [ 2 ] for square area calculation of a 3D right angle quad: "))
     if Choice == 2:
         ThreeDimAreaCalc()
+        time.sleep(200)
     elif Choice == 1:
         TwoDimAreaCalc()
+        time.sleep(200)
     else:
         print("Choose a valid option (1 or 2)")
 
